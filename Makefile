@@ -13,7 +13,8 @@ NAME =
 # Do not use make's built-in rules and variables
 # (this increases performance and avoids hard-to-debug behaviour);
 MAKEFLAGS += -rR
-
+ARCH=arm
+CROSS_COMPILE=arm-linux-
 # Avoid funny character set dependencies
 unexport LC_ALL
 LC_COLLATE=C
